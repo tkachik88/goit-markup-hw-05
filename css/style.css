@@ -111,6 +111,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-bg-color);
+  transition: color var(--timing-duration) var(--timing-function);
 }
 .menu-nav-link {
   padding: 24px 0;
@@ -121,6 +122,7 @@ body {
   letter-spacing: 0.32px;
   font-family: var(--primary-font);
   color: var(--color-secondary-text);
+  transition: color var(--timing-duration) var(--timing-function);
 }
 .contact:hover,
 .contact:focus,
@@ -153,7 +155,9 @@ body {
   letter-spacing: 0.32px;
   font-family: var(--primary-font);
   color: var(--color-secondary-text);
+  transition: color var(--timing-duration) var(--timing-function);
 }
+
 /* HERO */
 .hero {
   max-width: 1440px;
@@ -358,6 +362,7 @@ body {
   border-radius: 50%;
   fill: var(--color-bg-team);
   background-color: var(--accent);
+  transition: background-color var(--timing-duration) var(--timing-function);
 }
 .social-link:hover,
 .social-link:focus {
@@ -396,6 +401,7 @@ body {
   border-radius: 4px;
   border: 1px solid var(--light-slate);
   color: var(--light-slate);
+  transition: border-color var(--timing-duration) var(--timing-function);
 }
 .customers-icon {
   fill: currentColor;
@@ -425,6 +431,7 @@ body {
 }
 .gallery-link {
   display: block;
+  transition: box-shadow var(--timing-duration) var(--timing-function);
 }
 .gallery-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -433,6 +440,7 @@ body {
 .gallery-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 .gallery-content {
   padding: 32px 16px;
@@ -444,6 +452,7 @@ body {
   overflow: hidden;
 }
 .overlay {
+  padding: 40px 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -499,6 +508,7 @@ body {
   text-transform: uppercase;
   font-family: var(--secondary-font);
   color: var(--accent);
+  transition: background-color var(--timing-duration) var(--timing-function);
 }
 .text-white {
   width: 264px;
