@@ -401,7 +401,8 @@ body {
   border-radius: 4px;
   border: 1px solid var(--light-slate);
   color: var(--light-slate);
-  transition: border-color var(--timing-duration) var(--timing-function);
+  transition: color var(--timing-duration) var(--timing-function),
+    border-color var(--timing-duration) var(--timing-function);
 }
 .customers-icon {
   fill: currentColor;
@@ -452,12 +453,12 @@ body {
   overflow: hidden;
 }
 .overlay {
+  position: absolute;
   padding: 40px 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-bg-team);
-  padding: 40px 32px 20px;
   background: var(--accent);
   position: absolute;
   overflow: auto;
