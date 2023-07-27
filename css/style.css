@@ -470,8 +470,8 @@ body {
   transform: translateY(100%);
   transition: transform var(--timing-duration) var(--timing-function);
 }
-.card-box:hover .overlay,
-.card-box:focus .overlay {
+.gallery-link:hover .overlay,
+.gallery-link:focus .overlay {
   transform: translateY(0);
 }
 /* FOOTER */
@@ -592,11 +592,6 @@ body {
 }
 
 .modal-icon-x {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 8px;
-  height: 8px;
   transition: fill var(--timing-duration) var(--timing-function);
 }
 .modal-icon-x:hover,
